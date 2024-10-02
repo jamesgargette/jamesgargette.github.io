@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="bg-white py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl">
+                <a href="index.html">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">We Were Exploding Anyway
+                    </h2>
+                </a>
+                <p class="mt-2 text-lg leading-8 text-gray-600">advocating quality from within the development process
+                </p>
+                <div class="mt-10 space-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16">
+                    <article class="flex max-w-xl flex-col items-start justify-between">
+                        <div class="flex items-center gap-x-4 text-xs">
+                            <time datetime="2020-03-16" class="text-gray-500">Oct 2, 2024</time>
+                        </div>
+                        <div class="group relative">
+                            <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                Embracing Change with Confidence
+                            </h3>
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">In the world of software development, change
+                                is inevitable. Whether it’s
+                                a new feature, a bug fix, or an optimisation,
+                                every change introduces some level of risk. The common misconception is often that all
+                                risk is inherently bad and
+                                must
+                                be avoided at all costs. In reality, a well-thought-out approach to assessing risk can
+                                allow teams to make informed
+                                decisions, enabling them to take calculated risks when necessary. The key is to assess
+                                risk strategically using both
+                                severity and impact, which can offer a more nuanced perspective on the potential
+                                consequences of a change.
+
+                                By understanding that not all risks are equal, teams can happily balance innovation with
+                                stability.</p>
+
+                            <h4 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                The Risk Spectrum: Severity vs. Impact
+                            </h4>
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">Risk in software development can be
+                                understood along two key dimensions:</p>
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">Severity and Impact.</p>
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600"> Severity refers to the magnitude of the
+                                issue. How bad is the problem if it
+                                occurs? Does it break essential
+                                functionality, or is it a minor inconvenience?</p>
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600"> Impact refers to the scope of the
+                                issue. Who will be affected if the problem
+                                arises? Will it only impact a
+                                small
+                                subset of users, or does it affect a core feature used by everyone?
+
+                                A critical issue in a small, rarely used feature might be of lower risk than a minor
+                                issue in a key part of the
+                                system
+                                used by most of the user base. This risk model allows teams to assess the likelihood and
+                                consequences of a potential
+                                issue being introduced by a change. Let’s break this down further.</p>
+
+                            <h4 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                Balancing Severity and Impact
+                            </h4>
+
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">fHigh Severity, Low Impact:</b>
+                                Consider a change that could introduce a critical issue, such as breaking a feature.
+                                However, this feature might
+                                only be
+                                used by a small fraction of the user base. While the severity of the issue is high, its
+                                overall impact is low,
+                                making
+                                this risk somewhat manageable. If mitigation strategies are in place (such as feature
+                                flags or targeted rollouts),
+                                this
+                                is a risk the team could reasonably take.
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600"><b>Low Severity, High
+                                    Impact: </b>Conversely, a minor bug or performance issue
+                                in a heavily used feature could have a
+                                significant impact on the user
+                                experience. Even if the problem is a small UI glitch, if it occurs in a part of the
+                                system that nearly all users
+                                interact with, this introduces a high level of risk. In such cases, teams might consider
+                                delaying the change or
+                                prioritizing a fix before release.
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600"><b>High Severity, High Impact: </b>These are
+                                the most critical risks. A change
+                                that could introduce a major bug in a widely
+                                used feature demands the
+                                highest level of scrutiny. The consequences could be severe, ranging from system crashes
+                                to loss of data, which
+                                could
+                                severely affect customer satisfaction and trust. In this case, teams should either delay
+                                the release or implement
+                                comprehensive testing and mitigation strategies.
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600"><b>Low Severity, Low Impact: </b>These
+                                represent the least risky changes.
+                                Minor bugs in rarely used features are
+                                generally acceptable risks. However,
+                                they shouldn’t be ignored — low-risk issues can accumulate over time and lead to
+                                technical debt. Addressing these
+                                issues
+                                in a future sprint is typically a reasonable approach.
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">By assessing the risk matrix with
+                                severity on one axis and impact on the
+                                other teams can make better
+                                decisions about how to manage the risk involved with any change.
+
+                            <h4 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                Techniques for Effective Risk Assessment
+                            </h4>
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">To embrace this risk model effectively,
+                                agile teams can adopt the following
+                                techniques to measure and mitigate
+                                risk.
+
+                            <h4 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                Risk-Based Testing
+                            </h4>
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">Risk-based testing focuses testing efforts
+                                on areas that carry the highest risk. By
+                                understanding the areas of the
+                                system that are most critical to the user experience or business operations, QA teams
+                                can prioritise their tests
+                                accordingly. High-severity, high-impact features should be subjected to the most
+                                rigorous testing processes,
+                                including
+                                automated regression tests and manual exploratory testing, while lower-risk areas can
+                                receive lighter coverage.
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">For example, if a new feature is being
+                                rolled out in a payment system, this would be
+                                flagged as high risk and
+                                require
+                                exhaustive testing. On the other hand, a UI change to a settings page used by a fraction
+                                of users may require
+                                lighter
+                                testing.
+
+                            <h4 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                Collaborative Risk Reviews
+                            </h4>
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">Agile teams thrive on collaboration, and
+                                risk assessment should be no different. During
+                                sprint planning or before
+                                significant changes, the team can conduct a risk review where product managers,
+                                developers, QA engineers, and
+                                stakeholders collectively assess the potential risks of a change. Each team member
+                                provides their unique perspective
+                                on
+                                the severity and impact of the change, ensuring a comprehensive view of the risk
+                                landscape.
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">Collaborative risk reviews foster shared
+                                ownership of quality and risk management,
+                                encouraging teams to weigh the
+                                pros
+                                and cons of every change with a balanced perspective.
+
+                            <h4 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                Incremental Rollouts
+                            </h4>
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">To mitigate the risks of exposing critical
+                                issues to the entire user base, incremental
+                                rollouts or phased
+                                deployments
+                                allow teams to release changes gradually. This strategy can be especially effective when
+                                introducing high-impact
+                                features. By first releasing the change to a small subset of users, teams can monitor
+                                for issues in real-time,
+                                significantly reducing the potential fallout of any undetected bugs.
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">Using this approach, teams can confidently
+                                release higher-risk changes, knowing they can
+                                rollback or address
+                                problems
+                                before they affect the wider user base.
+
+                            <h4 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                Real-Time Monitoring and Alerting
+                            </h4>
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">In agile environments, real-time monitoring
+                                of the product is crucial for catching and
+                                addressing issues quickly. By
+                                implementing robust monitoring tools, teams can detect anomalies or performance
+                                degradations as soon as they occur.
+                                Combined with alerting systems, this allows development teams to act swiftly if a change
+                                introduces unexpected risks
+                                into production.
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">Monitoring metrics such as page load times,
+                                server performance, and user engagement can
+                                provide early warnings,
+                                helping
+                                teams prevent minor issues from escalating into major problems.
+
+                            <h4 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                Embracing Risk with Confidence
+                            </h4>
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">A well-rounded risk assessment strategy
+                                doesn’t aim to eliminate risk entirely—that
+                                would stifle innovation and slow
+                                down the development process. Instead, it can help teams take calculated risks where
+                                appropriate, ensuring that
+                                the
+                                product continues to evolve and improve without sacrificing quality or user experience.
+                                By using severity and impact
+                                as
+                                the guiding metrics, teams can confidently decide which risks are acceptable and which
+                                require further mitigation or
+                                testing.
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">In agile development, the ability to assess
+                                and manage risk effectively enables faster
+                                iterations and more frequent
+                                releases. With this mindset, teams move from a conservative approach of avoiding risk to
+                                an agile, flexible approach
+                                that embraces responsible risk-taking.
+
+                                ## Conclusion: Risk as an Opportunity
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">Risk is an inevitable part of software
+                                development, but it doesn’t have to be feared. By
+                                embracing a structured
+                                approach
+                                to risk assessment, teams can transform risk into an opportunity to learn, grow, and
+                                innovate. Understanding the
+                                relationship between severity and impact allows teams to make informed decisions about
+                                which risks are acceptable
+                                and
+                                which demand more attention.
+
+                            <p class="mt-5 text-sm leading-6 text-gray-600">In today’s fast-paced development
+                                environments, the ability to assess and manage risk
+                                gives teams the confidence to
+                                push
+                                forward with changes, knowing they can balance innovation with stability. This not only
+                                strengthens the product but
+                                also
+                                empowers teams to take ownership of quality at every step of the development process.
+                            </p>
+                        </div>
+                        <div class="relative mt-8 flex items-center gap-x-4">
+                            <img src="https://avatars.githubusercontent.com/u/32934828?v=4" alt=""
+                                class="h-10 w-10 rounded-full bg-gray-50">
+                            <div class="text-sm leading-6">
+                                <p class="font-semibold text-gray-900">
+                                    <span class="absolute inset-0"></span>
+                                    James Gargette
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
